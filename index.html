@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="static/css/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <a id="introduce" href="https://github.com/yazdani1994" target="_blank"
+        >Github ---> yazdani1994</a
+      >
+      <h1 class="score">
+        <span class="score-playerCircle">0</span>
+        <span class="score-seperator"> - </span>
+        <span class="score-playerX">0</span>
+      </h1>
+      <div class="tictoc-wrapper">
+        <div id="bg"></div>
+        <div class="row row-1">
+          <div class="col-4 c1"></div>
+          <div class="col-4 c2"></div>
+          <div class="col-4 c3"></div>
+        </div>
+        <div class="row row-2">
+          <div class="col-4 c4"></div>
+          <div class="col-4 c5"></div>
+          <div class="col-4 c6"></div>
+        </div>
+        <div class="row row-3">
+          <div class="col-4 c7"></div>
+          <div class="col-4 c8"></div>
+          <div class="col-4 c9"></div>
+        </div>
+        <div class="turn">
+          <img src="static/img/circle.png" id="playerCircle" class="player" />
+          <img src="static/img/x.png" id="playerX" class="player" />
+        </div>
+      </div>
+    </div>
+    <script src="static/js/app.js"></script>
+  </body>
+</html>
